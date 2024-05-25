@@ -1,4 +1,5 @@
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import logo from "../../images/Technocrats (1).png";
 
 export default function ParallaxProps() {
   const url = (name, wrap = false) =>
@@ -24,10 +25,8 @@ export default function ParallaxProps() {
         speed={-0.3}
         style={{ pointerEvents: "none" }}
       >
-        <img
-          src={url("satellite4")}
-          style={{ width: "15%", marginLeft: "70%" }}
-        />
+        {/*TODO "insertion of Technocrats logo*/}"
+        <img src={logo} style={{ width: "15%", marginLeft: "80%" }} />
       </ParallaxLayer>
 
       <ParallaxLayer offset={1} speed={0.8} style={{ opacity: 0.1 }}>
