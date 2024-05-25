@@ -1,0 +1,20 @@
+.layer1__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title__main {
+  color: white;
+  font-size: 25rem;
+  font-family: teko;
+  line-height: 18rem;
+  text-shadow: 8px 9px 10px rgb(153, 92, 191);
+}
+
+.title__sub {
+  font-size: 3rem;
+  font-family: poet;
+  margin: auto;
+}
