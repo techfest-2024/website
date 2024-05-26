@@ -15,7 +15,7 @@ export default [
     name: "CODE ROULETTE",
     description: "Black and red Combo",
     css: "linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)",
-    height: 400,
+    height: 200,
   },
   // {
   //   name: "Ripe Malinka",
@@ -27,7 +27,7 @@ export default [
     name: "Near Moon",
     description: "#5ee7df → #b490ca",
     css: "linear-gradient(135deg, #5ee7df 0%, #b490ca 100%)",
-    height: 300,
+    height: 150,
   },
   // {
   //   name: "Wild Apple",
@@ -51,6 +51,6 @@ export default [
     name: "Lemon Gate",
     description: "#96fbc4 → #f9f586",
     css: "linear-gradient(to top, #96fbc4 0%, #f9f586 100%)",
-    height: 300,
+    height: 150,
   },
 ];

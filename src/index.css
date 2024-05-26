@@ -27,3 +27,14 @@ code {
   font-family: "Teko";
   src: url("../public/fonts/Teko-VariableFont_wght.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Dance";
+  src: url("../public/fonts/DancingScript-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Play";
+  src: url("../public/fonts/Play-Regular.ttf") format("truetype");
+}

@@ -21,7 +21,7 @@ export default function ParallaxProps() {
       />
 
       <ParallaxLayer
-        offset={1.3}
+        offset={1.7}
         speed={-0.3}
         style={{ pointerEvents: "none" }}
       >
