@@ -1,3 +1,7 @@
+import redBlack from "../../images/red-black.jpg";
+import yellowBlue from "../../images/yellow-blue.jpg";
+import purpleBlue from "../../images/purple-blue.jpg";
+
 export default [
   {
     //   name: "Rare Wind",
@@ -14,7 +18,7 @@ export default [
     // {
     name: "CODE ROULETTE",
     description: "Black and red Combo",
-    css: "linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)",
+    image: redBlack,
     height: 200,
   },
   // {
@@ -24,9 +28,9 @@ export default [
   //   height: 400,
   // },
   {
-    name: "Near Moon",
+    name: "TECHNICAL QUIZ",
     description: "#5ee7df → #b490ca",
-    css: "linear-gradient(135deg, #5ee7df 0%, #b490ca 100%)",
+    image: purpleBlue,
     height: 150,
   },
   // {
@@ -48,9 +52,9 @@ export default [
   //   height: 140,
   // },
   {
-    name: "Lemon Gate",
+    name: "CODE DEBUGGING",
     description: "#96fbc4 → #f9f586",
-    css: "linear-gradient(to top, #96fbc4 0%, #f9f586 100%)",
+    image: yellowBlue,
     height: 150,
   },
 ];

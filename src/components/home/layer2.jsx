@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import data from "./data";
 import { shuffle } from "lodash";
 import { useTransition, animated } from "@react-spring/web";
+import redBlack from "../../images/red-black.jpg";
 
 export default function Layer2() {
   const [rows, set] = useState(data);
@@ -31,14 +32,12 @@ export default function Layer2() {
             className={styles.card}
             style={{ zIndex: data.length - index, ...style }}
           >
-            <div className={styles.cell}>
-              <div
-                className={styles.details}
-                style={{ backgroundImage: item.css }}
-              >
-                {item.name}
-              </div>
-            </div>
+            <div
+              className={styles.cell}
+              style={{ backgroundImage: `url(${item.image})` }}
+            ></div>
+
+            <div className={styles.img__text}>{item.name}</div>
           </animated.div>
         ))}
       </div>
