@@ -38,3 +38,9 @@ code {
   font-family: "Play";
   src: url("../public/fonts/Play-Regular.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Robot";
+  src: url("../public/fonts/RobotoSlab-VariableFont_wght.ttf")
+    format("truetype");
+}

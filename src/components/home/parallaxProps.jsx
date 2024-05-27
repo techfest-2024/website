@@ -1,5 +1,7 @@
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import logo from "../../images/Technocrats (1).png";
+import vviet from "../../images/VVIET (1).png";
+import vistara from "../../images/Vistara_logo.png";
 
 export default function ParallaxProps() {
   const url = (name, wrap = false) =>
@@ -88,6 +90,22 @@ export default function ParallaxProps() {
         />
       </ParallaxLayer>
 
+      {/* <ParallaxLayer
+        offset={2.04}
+        speed={0.4}
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+          gao: "1 rem",
+        }}
+      >
+        <img src={vviet} style={{ width: "auto", height: "15%" }}></img>
+        <img
+          src={vistara}
+          style={{ width: "auto", height: "15%", marginRight: "70%" }}
+        ></img>
+      </ParallaxLayer> */}
       {/* <ParallaxLayer
         offset={2.5}
         speed={-0.4}
