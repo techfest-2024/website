@@ -10,9 +10,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.152);
   justify-content: center;
   border: 5px solid rgb(85, 79, 79);
   border-radius: 12px;
+}
+
+.card__container:hover {
+  height: 60%;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.438);
 }
 
 .main_boxes {
@@ -32,16 +39,27 @@
   /* box-shadow: 10px 10px 5px rgb(212, 178, 238); */
 }
 
+.Contact:hover {
+  font-size: 100px;
+}
+
 .sub__contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 3px;
   /* gap: 40px; */
   /* background-color: rgba(85, 38, 119, 0.26);
   border-bottom: 2px solid rgba(39, 5, 94, 0.371); */
   /* border: 5px solid rgba(181, 112, 245, 0.735); */
   /* transform: scale(0.5); */
+}
+
+.sub__contact:hover {
+  background-color: rgba(136, 119, 187, 0.642);
+  border-radius: 10px;
+  margin-left: 6px;
 }
 
 /* .EmailIcon {
@@ -63,13 +81,23 @@
   /* background-color: rgba(85, 38, 119, 0.26);
   border-bottom: 2px solid rgba(39, 5, 94, 0.371); */
 }
+
+.phone:hover {
+  background-color: rgba(136, 119, 187, 0.642);
+  border-radius: 10px;
+}
 .text {
   font-size: 40px;
   font-family: poet;
 }
+
+.text:hover {
+  font-size: 50px;
+}
 .members {
   font-family: Robot;
   font-size: 25px;
+  gap: 10px;
 }
 
 .socials {
@@ -83,8 +111,9 @@
   /* border-left: 3px solid rgba(128, 128, 128, 0.721); */
 }
 
-.Icon__Phone {
-  /* margin-top: 10px; */
+.socials:hover {
+  background-color: rgba(136, 119, 187, 0.642);
+  border-radius: 10px;
 }
 
 .Icon__Social {

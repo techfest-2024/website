@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./layer3.module.css";
 import vviet from "../../images/VVIET (1).png";
-import vistara from "../../images/Vistara_logo.png";
+import vistara from "../../images/Vistara_black.png";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
 import InstagramIcon from "@mui/icons-material/Instagram";
