@@ -4,12 +4,12 @@ import { useState, useEffect } from "react";
 import data from "./data";
 import { shuffle } from "lodash";
 import { useTransition, animated } from "@react-spring/web";
-import redBlack from "../../images/red-black.jpg";
+import { Button } from "@mui/material";
 
 export default function Layer2() {
   const [rows, set] = useState(data);
   useEffect(() => {
-    const t = setInterval(() => set(shuffle), 8000);
+    const t = setInterval(() => set(shuffle), 80000);
     return () => clearInterval(t);
   }, []);
 
@@ -37,7 +37,17 @@ export default function Layer2() {
               style={{ backgroundImage: `url(${item.image})` }}
             ></div>
 
-            <div className={styles.img__text}>{item.name}</div>
+            <div className={styles.img__text}>
+              {item.name}{" "}
+              <Button
+                variant="contained"
+                color="secondary"
+                size="medium"
+                className={styles.btn__view}
+              >
+                View Details
+              </Button>
+            </div>
           </animated.div>
         ))}
       </div>
