@@ -4,22 +4,22 @@ import ParallaxProps from "../components/home/parallaxProps";
 import Layer3 from "../components/home/layer3";
 import Layer2 from "../components/home/layer2";
 import Layer1 from "../components/home/layer1";
+import { ChakraProvider } from "@chakra-ui/react";
 
 export default function Home() {
   const parallax = useRef(null);
 
   return (
-    <div style={{ width: "100%", height: "100%", background: "#253237" }}>
-      <Parallax ref={parallax} pages={3}>
+    <div style={{ width: "100%", height: "100%", background: "#28363b" }}>
+      <Parallax ref={parallax} pages={3} style={{ backgroundColor: "#100b20" }}>
         <ParallaxLayer
           offset={1}
-          speed={1.5}
+          speed={1}
           style={{ backgroundColor: "#805E73" }}
         />
         <ParallaxLayer
           offset={2}
-          speed={0.5}
-          factor={1}
+          speed={1}
           style={{ backgroundColor: "#87BC" }}
         />
 
