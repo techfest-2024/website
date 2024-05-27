@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card__container {
+  /* display: grid;
+  grid-template-rows: 1fr 1fr, 1fr; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid rgb(85, 79, 79);
+  border-radius: 12px;
+}
+
+.main_boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.Contact {
+  font-size: 80px;
+  font-family: "Teko";
+  width: 100%;
+  text-align: center;
+  /* background-color: rgba(103, 29, 110, 0.345); */
+  /* box-shadow: 10px 10px 5px rgb(212, 178, 238); */
+}
+
+.sub__contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 40px; */
+  /* background-color: rgba(85, 38, 119, 0.26);
+  border-bottom: 2px solid rgba(39, 5, 94, 0.371); */
+  /* border: 5px solid rgba(181, 112, 245, 0.735); */
+  /* transform: scale(0.5); */
+}
+
+/* .EmailIcon {
+  width: 100px;
+  height: 100px;
+  color: rgb(202, 109, 39);
+}
+.email__text {
+  font-size: 25px;
+  font-family: poet;
+} */
+
+.phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  /* background-color: rgba(85, 38, 119, 0.26);
+  border-bottom: 2px solid rgba(39, 5, 94, 0.371); */
+}
+.text {
+  font-size: 40px;
+  font-family: poet;
+}
+.members {
+  font-family: Robot;
+  font-size: 25px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgba(85, 38, 119, 0.26);
+  border-bottom: 2px solid rgba(39, 5, 94, 0.371); */
+  /* border-left: 3px solid rgba(128, 128, 128, 0.721); */
+}
+
+.Icon__Phone {
+  /* margin-top: 10px; */
+}
+
+.Icon__Social {
+  margin-top: 20px;
+}
