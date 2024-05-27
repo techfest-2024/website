@@ -4,6 +4,7 @@ import ParallaxProps from "../components/home/parallaxProps";
 import Layer3 from "../components/home/layer3";
 import Layer2 from "../components/home/layer2";
 import Layer1 from "../components/home/layer1";
+import { ChakraProvider } from "@chakra-ui/react";
 
 export default function Home() {
   const parallax = useRef(null);
