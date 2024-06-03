@@ -1,0 +1,21 @@
+.event__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 1fr; */
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgba(255, 255, 255, 0.152);
+    border: 5px solid rgb(85, 79, 79);
+    border-radius: 12px */
+}
+
+.sidebar {
+  /* background-image: url("C:\Users\Hemanth\projects\techfest\website\src\images\red-black.jpg"); */
+  width: 75%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  background-color: black;
+}

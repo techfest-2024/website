@@ -1,0 +1,152 @@
+/* .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+   gap: 10px; 
+  height: 1000vh;
+} */
+
+/* .grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #0c0c0c;
+}
+
+.item1 {
+  grid-row: span 2;
+  background-image: url("C:\Users\Hemanth\projects\techfest\website\src\images\red-black.jpg");
+  background-size: cover;
+  background-position: center;
+  color: rgb(23, 23, 23);
+  position: relative;
+}
+
+.item1 .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  text-align: center;
+}
+
+.item2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.item3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 18px;
+}
+
+.list li {
+  margin: 5px 0;
+} */
+
+/* .grid_item {
+  background-color: black;
+} */
+
+.grid_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* gap: 10px; */
+  height: 100%;
+  width: 100%;
+  /* column-gap: 500px; */
+  position: absolute;
+  /* background-image: url("C:\Users\Hemanth\projects\techfest\website\src\images\red-black.jpg"); */
+  background-size: cover;
+  background-position: center;
+}
+
+.grid_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.grid_item1 {
+  grid-row: span 2;
+  background-image: url("C:\Users\Hemanth\projects\techfest\website\src\images\red-black.jpg");
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  position: relative;
+  width: 70%;
+}
+
+.grid_item1 .overlay {
+  /* background-color: rgba(0, 0, 0, 0.266); */
+  padding: 20px;
+  text-align: center;
+  font-size: 80px;
+  margin-top: 40%;
+  font-family: "teko";
+}
+
+.grid_item2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(116, 11, 11); */
+  /* width: 40%; */
+  background-color: #87bc;
+}
+
+.timer {
+  font-size: 24px;
+  font-weight: bold;
+  border: 2px solid black;
+  margin-left: 900px;
+  margin-bottom: 250px;
+  margin-right: 200px;
+  position: relative;
+  padding: 150px;
+}
+
+.grid_item3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(116, 11, 11); */
+  /* width: 40%; */
+  background-color: #87bc;
+  flex-direction: column;
+}
+
+.list {
+  list-style-type: none;
+  padding: 20px;
+  font-size: 25px;
+  margin: 30px 100px;
+  border: 4px solid rgba(137, 86, 218, 0.492);
+  border-radius: 10px;
+  font-family: play;
+}
+
+.list li {
+  margin: 15px 10px;
+}
+
+.rules {
+  font-size: 30px;
+  font-family: "poet";
+  text-align: left;
+}
